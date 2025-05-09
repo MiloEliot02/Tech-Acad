@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Services - Tech Acad</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="services-page">
+        <!-- Burger Menu -->
+        <nav class="burger-menu">
+            <div class="menu-icon" onclick="toggleMenu()">
+                ☰
+            </div>
+            <ul class="menu-links">
+                <li><a href="kiddies.html">Home</a></li>
+                <li><a href="about-us.html">About Us</a></li>
+                <li><a href="mission.html">Mission</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+
+        <header class="services-header">
+            <h1>Offered Specialities</h1>
+            <p>Explore the amazing opportunities we offer to help kids learn coding in a fun and interactive way!</p>
+        </header>
+
+        <main class="services-list">
+            <ul>
+                <li><span class="emoji">🎮</span> Interactive Coding Lessons</li>
+                <li><span class="emoji">🕹️</span> Game Development</li>
+                <li><span class="emoji">🌐</span> Web Development Basics</li>
+                <li><span class="emoji">🤖</span> Robotics and AI for Beginners</li>
+                <li><span class="emoji">👨‍🏫</span> Personalized Mentorship</li>
+            </ul>
+        </main>
+
+        <footer class="services-footer">
+            <a href="kiddies.html" class="back-home-button">Back to Home</a>
+        </footer>
+    </div>
+
+    <script>
+        function toggleMenu() {
+            const menuLinks = document.querySelector('.menu-links');
+            menuLinks.classList.toggle('active');
+        }
+    </script>
+</body>
+</html>
